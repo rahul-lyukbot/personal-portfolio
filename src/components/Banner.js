@@ -71,10 +71,15 @@ export const Banner = () => {
                       dataPeriod="1000"
                       data-rotate='[ "Web Developer", "Web Designer", "UI/UX Designer" ]'
                     >
-                      <span className="wrap"></span>
+                      <span className="wrap">{text}</span>
                     </span>
                   </h1>
-                  <p></p>
+                  <p>
+                    Welcome to my website! Explore my portfolio, discover my
+                    skills, and learn about my journey in the world of
+                    technology. Let's connect and discuss how I can contribute
+                    to your next project!
+                  </p>
                   <button onClick={() => console.log("connect")}>
                     Let’s Connect <ArrowRightCircle size={25} />
                   </button>
