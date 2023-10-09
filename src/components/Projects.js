@@ -22,13 +22,13 @@ export const Projects = () => {
       description: "Design & Development",
     },
     {
-      title: "Business Startup",
+      title: "E-Commerce",
       description: "Design & Development",
       imgUrl: ecompproject,
     },
     {
-      title: "E-Commerce Website",
-      description: "Design & Development",
+      title: "Food-Vision ",
+      description: "Machine learning and Deep learning",
       imgUrl: foodproject,
     },
     {
