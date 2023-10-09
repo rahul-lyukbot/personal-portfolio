@@ -1,9 +1,9 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
-import projImg1 from "../assets/img/project-img1.png";
-import projImg2 from "../assets/img/project-img2.png";
-import projImg3 from "../assets/img/project-img3.png";
+import uiproject from "../assets/img/uiproject1.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
+import ecompproject from "../assets/img/ecomproject.png";
+import foodproject from "../assets/img/foodproject.png";
 import "animate.css";
 import TrackVisibility from "react-on-screen";
 
@@ -24,14 +24,17 @@ export const Projects = () => {
     {
       title: "Business Startup",
       description: "Design & Development",
+      imgUrl: ecompproject,
     },
     {
-      title: "Business Startup",
+      title: "E-Commerce Website",
       description: "Design & Development",
+      imgUrl: foodproject,
     },
     {
-      title: "Business Startup",
+      title: "UI Project",
       description: "Design & Development",
+      imgUrl: uiproject,
     },
   ];
 
@@ -49,11 +52,9 @@ export const Projects = () => {
                 >
                   <h2>Projects</h2>
                   <p>
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry. Lorem Ipsum has been the industry's
-                    standard dummy text ever since the 1500s, when an unknown
-                    printer took a galley of type and scrambled it to make a
-                    type specimen book.
+                    Explore my project showcase! From web development to design,
+                    I've brought ideas to life. Dive into my work and see how I
+                    can elevate your next project.
                   </p>
                   <Tab.Container id="projects-tabs" defaultActiveKey="first">
                     <Nav
@@ -86,20 +87,28 @@ export const Projects = () => {
                       </Tab.Pane>
                       <Tab.Pane eventKey="section">
                         <p>
-                          Lorem ipsum dolor sit amet consectetur adipisicing
-                          elit. Cumque quam, quod neque provident velit, rem
-                          explicabo excepturi id illo molestiae blanditiis,
-                          eligendi dicta officiis asperiores delectus quasi
-                          inventore debitis quo.
+                          As a member of the CX-development team, I've
+                          contributed to building robust enterprise-level
+                          products, aligning them with Cisco's design and
+                          architecture principles. My efforts resulted in a
+                          remarkable 16.04% YoY revenue increase, reaching
+                          $15.203B in Q3 2023. I played a pivotal role in system
+                          requirement identification, partner dependency
+                          understanding, and spearheaded software testing to
+                          ensure top-quality, user-friendly experiences.
                         </p>
                       </Tab.Pane>
                       <Tab.Pane eventKey="third">
                         <p>
-                          Lorem ipsum dolor sit amet consectetur adipisicing
-                          elit. Cumque quam, quod neque provident velit, rem
-                          explicabo excepturi id illo molestiae blanditiis,
-                          eligendi dicta officiis asperiores delectus quasi
-                          inventore debitis quo.
+                          As a member of the CX-development team, I've
+                          contributed to building robust enterprise-level
+                          products, aligning them with Cisco's design and
+                          architecture principles. My efforts resulted in a
+                          remarkable 16.04% YoY revenue increase, reaching
+                          $15.203B in Q3 2023. I played a pivotal role in system
+                          requirement identification, partner dependency
+                          understanding, and spearheaded software testing to
+                          ensure top-quality, user-friendly experiences.
                         </p>
                       </Tab.Pane>
                     </Tab.Content>
