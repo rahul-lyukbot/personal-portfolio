@@ -83,8 +83,15 @@ export const NavBar = () => {
                   <img src={gitimage} alt="" />
                 </a>
               </div>
-              <HashLink to="#connect">
-                <button className="vvd rounded">
+              <HashLink to="#connect" className="rounded rounded-full">
+                <button
+                  className="vvd"
+                  style={{
+                    borderRadius: "50px",
+                    padding: "10px 20px",
+                    fontSize: "14px",
+                  }}
+                >
                   <span>Let’s Connect</span>
                 </button>
               </HashLink>
